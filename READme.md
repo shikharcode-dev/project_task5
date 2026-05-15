@@ -28,10 +28,10 @@ The design is inspired by a modern clean UI layout focused on **nature, health, 
 
 ## 📸 Screenshots
 
-(![Page1](image.png))
-(![Page2](image-1.png))
-(![Page3](image-2.png))
-(![Page4](image-3.png))
+![Page1](image.png)
+![Page2](image-1.png)
+![Page3](image-2.png)
+![Page4](image-3.png)
 
 ---
 
@@ -61,5 +61,5 @@ Excited to keep learning and building more! 🚀
 
 ---
 
-##Author
+## Author
 - **Name**: Shikhar Mishra
