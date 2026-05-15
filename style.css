@@ -1,0 +1,265 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*START DESIGN*/
+#hero-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: rgb(127, 118, 118);
+}
+
+.btn-outline{
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.btn-outline:hover{
+    background-color: rgb(180, 201, 196);
+    color: black !important;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 120px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.hero-content h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero-line{
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    margin: auto;
+}
+
+
+/* ARTICLES SECTION */
+#articles-container{
+    width: 100%;
+    background-color: rgb(245, 246, 246);
+    padding: 100px 0;
+    text-align: center;
+}
+
+#articles-container h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.title-line{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin: 15px auto;
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.card{
+    background-color: white;
+    width: 320px;
+    height: 400px;
+    margin: 0 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-line{
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    margin: 30px auto 20px auto;
+}
+
+.card p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+#about-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left-about{
+    height: 100%;
+    width: 50%;
+}
+
+.left-about img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-about{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(252, 252, 252);
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right-about h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.right-about p{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 40px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* SUBSCRIBE SECTION */
+#subscribe-container{
+    width: 100%;
+    background-color: rgb(242, 244, 243);
+    padding-top: 150px;
+    position: relative;
+    text-align: center;
+}
+
+.sub-content h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.sub-content p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.sub-content input{
+    width: 350px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.sub-content button{
+    padding: 10px 40px;
+    background: transparent;
+    border: 1px solid black;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-content button:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    margin-top: 180px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials i{
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.socials i:hover{
+    color: rebeccapurple;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.footer-links a:hover{
+    color: rebeccapurple;
+}
